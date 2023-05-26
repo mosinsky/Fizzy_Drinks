@@ -1,0 +1,9 @@
+1.konto administratora :
+
+Email : admin@example.com
+Password : password
+
+2. konto użytkownika
+
+Email : user@example.com
+Password : password

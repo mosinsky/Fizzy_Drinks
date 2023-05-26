@@ -1,0 +1,82 @@
+### DELETE DRINK
+DELETE http://localhost:8000/api/drinks/2
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 2|qMVclNHdxz8xHDrOqJMAI65h2qMpPOe9henLlLKr
+
+<> 2023-01-08T222912.404.json
+<> 2023-01-08T222814.404.json
+<> 2023-01-08T222810.200.json
+<> 2023-01-08T222738.200.json
+<> 2023-01-08T222731.200.json
+<> 2023-01-08T222727.200.json
+
+### UPDATE DRINK
+PUT http://localhost:8000/api/drinks/1
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 2|qMVclNHdxz8xHDrOqJMAI65h2qMpPOe9henLlLKr
+
+{
+  "name": "Updated drink haha!",
+  "image_url": "https://imagesserver.com/9bdiaeu9dawdca9",
+  "description": "Some long drink description bla bla bla bla bla.",
+  "sugar_grams_per_100ml":  10.8
+}
+
+<> 2023-01-08T222643.200.json
+<> 2023-01-08T222635.200.json
+<> 2023-01-08T222628.200.json
+<> 2023-01-08T222551.200.json
+
+### CREATE DRINK
+POST http://localhost:8000/api/drinks
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 2|qMVclNHdxz8xHDrOqJMAI65h2qMpPOe9henLlLKr
+
+{
+  "name": "Some drink name",
+  "image_url": "https://imagesserver.com/9bdiaeu9dawdca9",
+  "description": "Some long drink description bla bla bla bla bla.",
+  "sugar_grams_per_100ml":  10.8
+}
+
+<> 2023-01-08T222442.200.json
+<> 2023-01-08T222437.200.json
+<> 2023-01-08T222410.200.json
+<> 2023-01-08T222342.200.json
+<> 2023-01-08T222334.200.json
+<> 2023-01-08T222313.500.html
+<> 2023-01-08T222236.500.html
+<> 2023-01-08T222111.500.html
+<> 2023-01-08T222016.500.html
+
+### FIND DRINK
+GET http://localhost:8000/api/drinks/1
+Accept: application/json
+Authorization: Bearer 2|qMVclNHdxz8xHDrOqJMAI65h2qMpPOe9henLlLKr
+
+<> 2023-01-08T221708.200.json
+
+### ALL DRINKS
+GET http://localhost:8000/api/drinks
+Accept: application/json
+Authorization: Bearer 2|qMVclNHdxz8xHDrOqJMAI65h2qMpPOe9henLlLKr
+
+<> 2023-01-08T221558.200.json
+<> 2023-01-08T221450.200.json
+<> 2023-01-08T221424.500.json
+<> 2023-01-08T221414.200.json
+<> 2023-01-08T221323.500.json
+<> 2023-01-08T221251.500.json
+<> 2023-01-08T221103.401.json
+<> 2023-01-08T221054.401.json
+<> 2023-01-08T221029.401.json
+<> 2023-01-08T220356.401.json
+<> 2023-01-08T220337.404.json
+<> 2023-01-08T220324.404.json
+###
+
+### Normal user token: 1|I7YMsadMFHnLOfjjYIPfJDkufOhpRbtJqUcetVhm
+### Admin user token: 2|qMVclNHdxz8xHDrOqJMAI65h2qMpPOe9henLlLKr
